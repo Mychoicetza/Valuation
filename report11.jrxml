@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report11" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="efe052d5-150f-49a5-aea8-382ed301288a">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from block;]]>
+	</queryString>
+	<field name="OWNERFN" class="java.lang.Object"/>
+	<field name="YEAR" class="java.lang.Object"/>
+	<field name="OBJECTNO" class="java.lang.Object"/>
+	<field name="PAGENO" class="java.lang.Object"/>
+	<field name="PWARD" class="java.lang.Object"/>
+	<field name="PMTAA" class="java.lang.Object"/>
+	<field name="PRATEBLOCK" class="java.lang.Object"/>
+	<field name="POBJECT" class="java.lang.Object"/>
+	<field name="PBUILDINGNO" class="java.lang.Object"/>
+	<field name="PLSTREET" class="java.lang.Object"/>
+	<field name="PLPLOTNO" class="java.lang.Object"/>
+	<field name="PLSURVEYBLOCK" class="java.lang.Object"/>
+	<field name="PLEXISTINGPROP" class="java.lang.Object"/>
+	<field name="PLMAPREF" class="java.lang.Object"/>
+	<field name="INDIVFN" class="java.lang.Object"/>
+	<field name="INDIVMN" class="java.lang.Object"/>
+	<field name="INDIVLN" class="java.lang.Object"/>
+	<field name="INDIVPH1" class="java.lang.Object"/>
+	<field name="INDIVPH2" class="java.lang.Object"/>
+	<field name="LEGALFCN" class="java.lang.Object"/>
+	<field name="LEGALPH1" class="java.lang.Object"/>
+	<field name="LEGALPH2" class="java.lang.Object"/>
+	<field name="ID" class="java.lang.Object"/>
+	<field name="OWNERMN" class="java.lang.Object"/>
+	<field name="OWNERLN" class="java.lang.Object"/>
+	<field name="OWNERPH1" class="java.lang.Object"/>
+	<field name="OWNERPH2" class="java.lang.Object"/>
+	<field name="OWNERPSTREET" class="java.lang.Object"/>
+	<field name="OWNERPLOTNO" class="java.lang.Object"/>
+	<field name="OWNERPOBOX" class="java.lang.Object"/>
+	<field name="OWNERREGION" class="java.lang.Object"/>
+	<field name="OWNERDISTRICT" class="java.lang.Object"/>
+	<field name="OWNERWARD" class="java.lang.Object"/>
+	<field name="OWNERMTAA" class="java.lang.Object"/>
+	<field name="OWNEREMAIL" class="java.lang.Object"/>
+	<field name="TENURE" class="java.lang.Object"/>
+	<field name="LAND" class="java.lang.Object"/>
+	<field name="ACTUALTRANSACTION" class="java.lang.Object"/>
+	<field name="TRANSACTIONDATE" class="java.lang.Object"/>
+	<field name="SOI" class="java.lang.Object"/>
+	<field name="NOSTORIES" class="java.lang.Object"/>
+	<field name="COMPLETE" class="java.lang.Object"/>
+	<field name="COMIND" class="java.lang.Object"/>
+	<field name="INSTI" class="java.lang.Object"/>
+	<field name="RES" class="java.lang.Object"/>
+	<field name="COYEAR" class="java.lang.Object"/>
+	<field name="RECOYEAR" class="java.lang.Object"/>
+	<field name="ROOF" class="java.lang.Object"/>
+	<field name="EXTWALL" class="java.lang.Object"/>
+	<field name="EXTFIN" class="java.lang.Object"/>
+	<field name="WINDOWS" class="java.lang.Object"/>
+	<field name="DOORS" class="java.lang.Object"/>
+	<field name="FLOOR" class="java.lang.Object"/>
+	<field name="CEILING" class="java.lang.Object"/>
+	<field name="NOFLOOR" class="java.lang.Object"/>
+	<field name="NOROOM" class="java.lang.Object"/>
+	<field name="WATER" class="java.lang.Object"/>
+	<field name="DRAINAGE" class="java.lang.Object"/>
+	<field name="ELECTRICITY" class="java.lang.Object"/>
+	<field name="HQ" class="java.lang.Object"/>
+	<field name="GQ" class="java.lang.Object"/>
+	<field name="AMENIT" class="java.lang.Object"/>
+	<field name="EXLLENT" class="java.lang.Object"/>
+	<field name="GOOD" class="java.lang.Object"/>
+	<field name="FAIR" class="java.lang.Object"/>
+	<field name="POOR" class="java.lang.Object"/>
+	<field name="ROAD" class="java.lang.Object"/>
+	<field name="FENCE" class="java.lang.Object"/>
+	<field name="COMP" class="java.lang.Object"/>
+	<field name="OBNONE" class="java.lang.Object"/>
+	<field name="OB1" class="java.lang.Object"/>
+	<field name="OB1HYPERLINK" class="java.lang.Object"/>
+	<field name="OB2" class="java.lang.Object"/>
+	<field name="OB2HYPERLINK" class="java.lang.Object"/>
+	<field name="OB3" class="java.lang.Object"/>
+	<field name="OB3HYPERLINK" class="java.lang.Object"/>
+	<field name="OB4" class="java.lang.Object"/>
+	<field name="OB4HYPERLINK" class="java.lang.Object"/>
+	<field name="SKETCH" class="java.lang.Object"/>
+	<field name="BULDHPHOTO1" class="java.lang.Object"/>
+	<field name="BULDHPHOTO2" class="java.lang.Object"/>
+	<field name="BATHS" class="java.lang.Object"/>
+	<field name="TOILETS" class="java.lang.Object"/>
+	<field name="MLEN" class="java.lang.Object"/>
+	<field name="MWID" class="java.lang.Object"/>
+	<field name="MAREA" class="java.lang.Object"/>
+	<field name="MREDFACT" class="java.lang.Object"/>
+	<field name="MCOMPFACT" class="java.lang.Object"/>
+	<field name="MREDFACTAREA" class="java.lang.Object"/>
+	<field name="OB1LEN" class="java.lang.Object"/>
+	<field name="OB1WID" class="java.lang.Object"/>
+	<field name="OB1AREA" class="java.lang.Object"/>
+	<field name="OB1REDFACT" class="java.lang.Object"/>
+	<field name="OB1COMPFACT" class="java.lang.Object"/>
+	<field name="OB1REDFACTAREA" class="java.lang.Object"/>
+	<field name="OB2LEN" class="java.lang.Object"/>
+	<field name="OB2WID" class="java.lang.Object"/>
+	<field name="OB2AREA" class="java.lang.Object"/>
+	<field name="OB2REDFACT" class="java.lang.Object"/>
+	<field name="OB2COMPFACT" class="java.lang.Object"/>
+	<field name="OB2REDFACTAREA" class="java.lang.Object"/>
+	<field name="OB3LEN" class="java.lang.Object"/>
+	<field name="OB3WID" class="java.lang.Object"/>
+	<field name="OB3AREA" class="java.lang.Object"/>
+	<field name="OB3REDFACT" class="java.lang.Object"/>
+	<field name="OB3COMPFACT" class="java.lang.Object"/>
+	<field name="OB3REDFACTAREA" class="java.lang.Object"/>
+	<field name="OB4LEN" class="java.lang.Object"/>
+	<field name="OB4WID" class="java.lang.Object"/>
+	<field name="OB4AREA" class="java.lang.Object"/>
+	<field name="OB4REDFACT" class="java.lang.Object"/>
+	<field name="OB4COMPFACT" class="java.lang.Object"/>
+	<field name="OB4REDFACTAREA" class="java.lang.Object"/>
+	<field name="TOTALRFA" class="java.lang.Object"/>
+	<field name="TOTALRFASQR" class="java.lang.Object"/>
+	<field name="MULTIPLYBTALL" class="java.lang.Object"/>
+	<field name="CURRENTREPLACEMENT" class="java.lang.Object"/>
+	<field name="LESSDEPREC" class="java.lang.Object"/>
+	<field name="DEPRECREPLACEMENT" class="java.lang.Object"/>
+	<field name="INSPECTEDBY" class="java.lang.Object"/>
+	<field name="CHECKEDBY" class="java.lang.Object"/>
+	<field name="APPROVEDBY" class="java.lang.Object"/>
+	<field name="COMPANYNAME" class="java.lang.Object"/>
+	<field name="COMPANYSTAMP" class="java.lang.Object"/>
+	<field name="CERTIFIEDDATE" class="java.lang.Object"/>
+	<field name="TIN" class="java.lang.Object"/>
+	<field name="NonRateable" class="java.lang.Object"/>
+	<field name="INDIVIDUAL" class="java.lang.Object"/>
+	<field name="LegalEntity" class="java.lang.Object"/>
+	<field name="DATANO" class="java.lang.Object"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="621" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="316" y="20" width="65" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="00c68ec1-0126-447f-b537-2d434b5b030c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="12"/>
+				</textElement>
+				<text><![CDATA[YEAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="381" y="20" width="99" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="4974fb9f-b156-4cc7-96cb-6da3063c6c44"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="12"/>
+				</textElement>
+				<text><![CDATA[BUNDLE NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="480" y="20" width="60" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="0f668c37-056f-4b34-8502-14e9888256e1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="12"/>
+				</textElement>
+				<text><![CDATA[PAGE NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="74" width="67" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="252f1b60-20f8-49dc-a680-7a8755c141ad"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Prop Ref No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="78" y="74" width="72" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="220b70cd-e35d-42c2-ac79-669e8d0cde6a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Ward]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="150" y="74" width="85" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="61ee4458-914c-4eb0-9773-7afb57c139ba"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Mtaa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="235" y="74" width="79" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="c865b213-7334-44ff-b7bf-4753d16e94d7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Rate Block]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="375" y="74" width="57" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="dbb41083-1488-4f32-9eb6-784988e63f09"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Building No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="432" y="74" width="73" height="40" forecolor="#FFFFFF" backcolor="#006666" uuid="e9adcc31-47ae-465a-8f80-3a7eb10e5728"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="12"/>
+				</textElement>
+				<text><![CDATA[Non-         Rateable]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="314" y="74" width="61" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="f9b7917d-6eb8-4654-ae20-a8e9172904b5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Object No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="126" width="529" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="7cba5368-52eb-4149-8737-97d5104d41df"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[PROPERTY  LOCATION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="146" width="180" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="9c599a9e-1ab4-44eb-913b-464841d981d2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Street+Location]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="191" y="146" width="82" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="7e3d0b19-6638-486c-b6da-642ca5665cb6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Plot Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="273" y="146" width="65" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="be63980f-3583-483e-9cfd-52d054dab7e1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Survey Block]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="338" y="146" width="132" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="79bfe640-9441-47b2-9271-466ed204f76b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Existing Property Ref No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="480" y="146" width="60" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="deaeaee3-d48e-4f6e-ac6d-185fe0e21755"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Map Ref]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="196" width="540" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="53d28675-67fe-4f32-aaff-b4512b99e746"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[OWNER                    LESSEE       BENEFICIARY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="77" y="216" width="93" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="2ac709e7-e002-4741-b0c2-0a2a013ac222"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[First Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="171" y="216" width="102" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="6b74b973-73ca-4133-86b4-27f973d3d317"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Middle Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="273" y="216" width="102" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="db727179-caaa-4cd2-8c1a-e652d70c8383"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Last Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="375" y="216" width="80" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="1f24b106-630a-46a0-bef9-0f09aa5c1337"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Phone No.1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="457" y="216" width="83" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="c436479b-4bef-4348-b3b5-8271d9b7030e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Phone No.2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="262" width="375" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="cd73f63c-576d-48c6-ba38-3294f6db57f6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Full Company Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="375" y="262" width="80" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="a24a63c7-f865-4d1e-9493-1261628c30dd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Phone No.1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="457" y="262" width="83" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="458bc478-810b-4041-ba2f-8441473d47e6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Phone No.2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="312" width="394" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="22035c8c-e571-449a-9b4e-5947851f1051"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[OWNER INFORMATION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="416" y="312" width="39" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="1107b4d0-3961-4537-8b2c-680bac9701b8"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[TIN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="161" y="332" width="112" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="09dcc0e9-1290-4638-b42b-40a0c8c4910c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Middle Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="273" y="332" width="102" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="3105fe1b-2934-4955-adb4-6cf94a515673"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Last Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="56" y="332" width="105" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="e1dcb386-4edb-4b17-ab09-cd6cb9ea76d9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[First Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="375" y="332" width="80" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="0ccb8ba2-1a27-44fa-a50e-668a3f45cf44"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Phone No.1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="457" y="332" width="83" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="bd1e7444-b458-47d5-af9a-7482e2d82cc7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Phone No.2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="381" width="240" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="f3d0be98-85c6-494c-99fc-8e42e7dee4de"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Street+Location]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="332" width="45" height="37" forecolor="#FFFFFF" backcolor="#006666" uuid="7c96c6f0-ba73-47e2-bed0-462e8145ace6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Name As Above]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="251" y="381" width="120" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="69c81d5a-44b7-4a1e-afaa-05cfdab09c52"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Plot No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="371" y="381" width="169" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="d1be2dbd-a0d3-41b5-af4a-9eb5ae7087e6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[P.O Box/Town]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="426" width="99" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="ed28aa74-bf95-4677-8acc-fdfd749ccd22"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Region]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="110" y="426" width="99" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="5c476f36-c7ef-4dcd-a39b-65d5dc89b188"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[District]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="209" y="426" width="99" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="4b04e91f-b23a-430b-967d-f663274fb9f3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Ward]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="308" y="426" width="99" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="e97824f7-66e9-45ff-95a1-6b46038e1420"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Mtaa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="407" y="426" width="133" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="5750dcb0-5d63-4ca5-a96a-27324f64b020"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Email Address]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="477" width="527" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="1e7f77f5-7389-4cd8-9435-a8ef69fe5373"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[LAND CHARACTERISTICS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="497" width="80" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="efc865fb-80c1-48f2-84e1-847ce044299e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[TENURE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="291" y="497" width="80" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="5a64597c-03d5-4436-af40-0075ac7beb2d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[LAND USE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="529" width="527" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="feeed166-4efd-4d67-80f6-956b76610def"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[PROPERTY SALES DATA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="549" width="160" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="57abe198-ebf5-47d6-a09b-a64bac2a9f43"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Actual Transaction Value(Tsh)  :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="175" y="549" width="139" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="09497d5e-630d-4e8e-b3d8-33b48623fb01"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Transaction Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="320" y="549" width="96" height="41" forecolor="#FFFFFF" backcolor="#006666" uuid="cc4ea1e8-99a4-41bb-b5ea-95b2beee9969"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Source Of Information]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="602" width="350" height="19" forecolor="#FFFFFF" backcolor="#006666" uuid="73cb2fb6-eed3-4ae2-941c-6adfe3d13f07"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="10"/>
+				</textElement>
+				<text><![CDATA[BUILDING TYPE AND CONSTRUCTION CHARACTERISTICS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="361" y="601" width="55" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="275531e4-99fe-436e-801c-b14e9846620e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="11"/>
+				</textElement>
+				<text><![CDATA[No Of Stories]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="450" y="601" width="55" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="e694b9c8-e912-4cf1-8532-0534d6b59a27"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[% Complete]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="131" y="20" width="177" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="41529ff3-d878-4350-a6ca-c3d3070aa2f6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="12"/>
+				</textElement>
+				<text><![CDATA[PROPERTY DATA SHEET]]></text>
+			</staticText>
+			<image>
+				<reportElement x="13" y="20" width="110" height="44" uuid="7877c01c-d137-4c7c-a90f-ecb29dbd2a57"/>
+				<imageExpression><![CDATA["C:\\Users\\Engnoellemar\\Pictures\\niche_logo.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="56" y="352" width="105" height="20" uuid="427e8fd6-50ae-446c-aa69-4a9e49e57bd2"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERFN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="40" width="65" height="20" uuid="e8233fd5-6fa0-41ac-8b43-0bb9a1c352b1"/>
+				<textFieldExpression><![CDATA[""+$F{YEAR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="40" width="100" height="20" uuid="9096183a-4b90-48e4-a1a7-49b32f9080dc"/>
+				<textFieldExpression><![CDATA[""+$F{OBJECTNO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="40" width="60" height="20" uuid="d91fcd3d-837e-4d57-868c-64db3ef7856a"/>
+				<textFieldExpression><![CDATA[""+$F{PAGENO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="94" width="64" height="20" uuid="b3e31ca0-ad9b-4425-a571-8546520de159"/>
+				<textFieldExpression><![CDATA[""+$F{ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="94" width="70" height="20" uuid="66a79a4e-92c2-4669-856b-249645294e80"/>
+				<textFieldExpression><![CDATA[""+$F{PWARD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="151" y="94" width="84" height="20" uuid="0b1bc0eb-209e-4a12-9d7a-4badb320f817"/>
+				<textFieldExpression><![CDATA[""+$F{PMTAA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="235" y="94" width="81" height="20" uuid="7706a01d-9ceb-4f9f-b7f8-770d39da3a62"/>
+				<textFieldExpression><![CDATA[""+$F{PRATEBLOCK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="316" y="94" width="59" height="20" uuid="f2a1e6c6-2b03-41a6-ba02-cc23ab22648b"/>
+				<textFieldExpression><![CDATA[""+$F{POBJECT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="94" width="57" height="20" uuid="651087e2-e219-4dfc-94d8-f32158703b7c"/>
+				<textFieldExpression><![CDATA[""+$F{PBUILDINGNO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="505" y="74" width="50" height="40" uuid="d6de4eb3-0bd2-428e-9448-b4d9a39a528f"/>
+				<textFieldExpression><![CDATA[""+$F{NonRateable}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="13" y="166" width="178" height="20" uuid="573e6d98-c78e-4587-90fd-49d3e0f21a5a"/>
+				<textFieldExpression><![CDATA[""+$F{PLSTREET}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="191" y="166" width="82" height="20" uuid="a6bc7e70-e449-4ac3-8450-1894c24680f9"/>
+				<textFieldExpression><![CDATA[""+$F{PLPLOTNO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="271" y="166" width="69" height="20" uuid="4e0f4889-3884-4542-95fb-04252823cfd7"/>
+				<textFieldExpression><![CDATA[""+$F{PLSURVEYBLOCK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="166" width="130" height="20" uuid="e76c4338-22ae-463a-bf77-187d26148df9"/>
+				<textFieldExpression><![CDATA[""+$F{PLEXISTINGPROP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="166" width="75" height="20" uuid="92bfa91e-4576-4655-942f-16d5fd58f081"/>
+				<textFieldExpression><![CDATA[""+$F{PLMAPREF}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="77" y="236" width="93" height="20" uuid="939dfd29-7a36-42c0-b32a-8fbcc51b80f3"/>
+				<textFieldExpression><![CDATA[""+$F{INDIVFN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="173" y="236" width="100" height="20" uuid="ab5bc104-29f0-47a9-b788-329dda2fb7eb"/>
+				<textFieldExpression><![CDATA[""+$F{INDIVMN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="273" y="236" width="102" height="20" uuid="d961299f-df09-4c72-b528-62c36899ab78"/>
+				<textFieldExpression><![CDATA[""+$F{INDIVLN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="236" width="80" height="20" uuid="8b99f6a0-9e4c-4735-9c88-07cf137247da"/>
+				<textFieldExpression><![CDATA[""+$F{INDIVPH1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="457" y="236" width="81" height="20" uuid="7f57d655-4407-4a8f-8c9d-1ae8f8188805"/>
+				<textFieldExpression><![CDATA[""+$F{INDIVPH2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="282" width="295" height="20" uuid="21b8e81d-87f8-44a2-aab0-bf17b5268e91"/>
+				<textFieldExpression><![CDATA[""+$F{LEGALFCN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="282" width="80" height="20" uuid="9ed1f452-4485-4636-a510-7fe1ca260eeb"/>
+				<textFieldExpression><![CDATA[""+$F{LEGALPH1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="458" y="282" width="82" height="20" uuid="65c8c3d5-a1ee-4739-a6b8-b9b81a458d59"/>
+				<textFieldExpression><![CDATA[""+$F{LEGALPH2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="352" width="112" height="20" uuid="df1331a7-f0f7-43a8-9c89-c92632c1bbef"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERMN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="273" y="352" width="102" height="20" uuid="60d82fc9-dee2-489f-a0f8-ef27d59e18d6"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERLN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="352" width="80" height="20" uuid="cbbb7294-27dc-4ea6-adf6-5e3358ced0ed"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERPH1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="458" y="352" width="82" height="20" uuid="78292bfc-d1f1-481c-a7f1-60f89192cd91"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERPH2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="401" width="237" height="20" uuid="8b45579b-e9dc-4d3a-bb42-4beba77edf6a"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERPSTREET}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="401" width="121" height="20" uuid="f6ed25ec-5d98-4efd-aade-2d27f81f7a87"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERPLOTNO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="401" width="167" height="20" uuid="6007b9aa-03c7-41b5-9db7-52e4eb299b33"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERPOBOX}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="13" y="446" width="94" height="20" uuid="b5fd72b3-1fac-4998-8abf-90b80bbe4879"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERREGION}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="107" y="446" width="102" height="20" uuid="db0ad2bd-1540-4ef5-a9e0-14e269164816"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERDISTRICT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="208" y="446" width="100" height="20" uuid="ed738f42-5c03-4769-bc1d-ae8bbb058768"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERWARD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="308" y="446" width="100" height="20" uuid="f34710d3-4da7-4a4d-a18f-c6c4df1c69ac"/>
+				<textFieldExpression><![CDATA[""+$F{OWNERMTAA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="408" y="446" width="129" height="20" uuid="a83b129b-878b-46a0-ba43-d9dce4c2329e"/>
+				<textFieldExpression><![CDATA[""+$F{OWNEREMAIL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="497" width="166" height="20" uuid="14e49706-d1f8-4462-985c-268b8e818fb6"/>
+				<textFieldExpression><![CDATA[""+$F{TENURE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="497" width="161" height="20" uuid="e2a0759b-c4f6-49cc-b3ec-777993802f3c"/>
+				<textFieldExpression><![CDATA[""+$F{LAND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="569" width="156" height="20" uuid="4300162d-8a8b-457a-aec3-c548d05cd0a3"/>
+				<textFieldExpression><![CDATA[""+$F{ACTUALTRANSACTION}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="569" width="137" height="20" uuid="338cd28d-813b-4dd9-ae53-8b5eb5334f1d"/>
+				<textFieldExpression><![CDATA[""+$F{TRANSACTIONDATE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="549" width="121" height="40" uuid="431fd307-ceb1-4941-908a-08a229c6c0c7"/>
+				<textFieldExpression><![CDATA[""+$F{SOI}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="601" width="33" height="20" uuid="04e99aa7-64e5-4bac-a508-ca040be81d1b"/>
+				<textFieldExpression><![CDATA[""+$F{NOSTORIES}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="503" y="601" width="35" height="20" uuid="1a2c0fa6-bdb5-4ffb-b3f6-c25726a4a81c"/>
+				<textFieldExpression><![CDATA[""+$F{COMPLETE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="475" y="308" width="100" height="20" uuid="8fa4e145-33c2-4c50-95a6-2764e56bfa22"/>
+				<textFieldExpression><![CDATA[""+$F{TIN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="216" width="77" height="20" uuid="6e81d270-2ff4-43ca-9d2e-4c4ec603ebc7"/>
+				<textFieldExpression><![CDATA[""+$F{INDIVIDUAL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="282" width="77" height="20" uuid="8f9866b5-656a-4de7-8fb2-e31d3c7b4511"/>
+				<textFieldExpression><![CDATA[""+$F{LegalEntity}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="161" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="0" width="180" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="d2f866b0-b2c3-492e-a264-c0356d87ee1f"/>
+				<textElement>
+					<font fontName="Rockwell Condensed" size="13"/>
+				</textElement>
+				<text><![CDATA[Building Type/Use:Commercial/Industrial]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="195" y="0" width="166" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="5c66d9cc-3b20-43b3-9ad4-0dfe1f1bb20e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Building Type/Use:Institutional]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="371" y="0" width="167" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="4aab42d3-fc6f-421c-a0f0-4bed662f1564"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Building Type/Use:Residential]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="41" width="262" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="013f4ab5-60a9-4657-90bc-92ba12b72aac"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[DETAILS OF CONSTRUCTION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="273" y="41" width="65" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="b6f2f14a-e6f9-4cbe-a249-9c3db0889442"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="11"/>
+				</textElement>
+				<text><![CDATA[Construction Year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="405" y="41" width="75" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="783f9db6-245c-4cc2-b1fe-4db17cc8154b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="11"/>
+				</textElement>
+				<text><![CDATA[Reconstruction Year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="61" width="112" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="f400cf91-bd2e-48c2-b9ad-4b07473a42fe"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[ROOF TYPE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="131" y="61" width="120" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="547a7621-3d16-4a2a-aaf1-1d95de04554d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[EXTERIOR WALL TYPE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="261" y="61" width="136" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="d277153d-563a-4bbc-a2a6-2de138a4a4fb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[EXTERIOR WALL FINISH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="407" y="61" width="131" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="6cc3ef50-53ab-47ea-842f-f76d66b4f337"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[WINDOWS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="397" y="104" width="141" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="b442b025-2f48-49db-a28a-ebc5c41655d5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[CEILING FINISH TYPE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="213" y="104" width="162" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="4d90c4b7-b357-4159-81ca-364e0792ca7d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[FLOOR FINISH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="104" width="180" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="659b66a4-b23d-4c9d-802d-de127beb131a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[DOORS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="141" width="309" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="fdc839a6-ea7c-4625-b7c9-043d05f6093b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[ADDITIONAL BUILDING CHARACTEERISTICS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="320" y="141" width="77" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="aee69c9f-44c8-48b1-8ef9-378c626ea49c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[No Of Floor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="432" y="141" width="61" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="438c4bba-06a1-4cd8-90fa-c245a698f0ba"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[No Of Room]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="14" y="22" width="177" height="19" uuid="7835506b-5905-48bd-be26-95bb8a1c1e23"/>
+				<textFieldExpression><![CDATA[""+$F{COMIND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="195" y="20" width="164" height="20" uuid="baa8d82b-e499-4dcf-aabd-e35b399708cd"/>
+				<textFieldExpression><![CDATA[""+$F{INSTI}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="21" width="167" height="20" uuid="f3c48c96-af11-46f6-9f15-439567530461"/>
+				<textFieldExpression><![CDATA[""+$F{RES}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="40" width="57" height="20" uuid="2ad06a8e-fc95-4c64-89ff-a49e33a8251f"/>
+				<textFieldExpression><![CDATA[""+$F{COYEAR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="41" width="57" height="20" uuid="617f7db2-6a6c-495b-997c-4c680c620821"/>
+				<textFieldExpression><![CDATA[""+$F{RECOYEAR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="81" width="109" height="20" uuid="7c98f94e-1d14-4285-9150-0f743a83bc3d"/>
+				<textFieldExpression><![CDATA[""+$F{ROOF}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="131" y="81" width="119" height="20" uuid="c809e59a-3e1e-4eac-b666-d7a943be53cf"/>
+				<textFieldExpression><![CDATA[""+$F{EXTWALL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="261" y="81" width="136" height="20" uuid="377814be-7501-42a9-89ec-96eff5bc5581"/>
+				<textFieldExpression><![CDATA[""+$F{EXTFIN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="408" y="81" width="128" height="20" uuid="627a0922-ff23-4b49-b045-43f1fec1d3e6"/>
+				<textFieldExpression><![CDATA[""+$F{WINDOWS}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="125" width="181" height="16" uuid="21a8bcef-915d-4c4b-a2e9-41e78b536935"/>
+				<textFieldExpression><![CDATA[""+$F{DOORS}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="214" y="125" width="161" height="16" uuid="f10574b4-2e69-49fe-ab02-0da9fc0d0f82"/>
+				<textFieldExpression><![CDATA[""+$F{FLOOR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="397" y="125" width="139" height="16" uuid="adf8636e-5135-4a55-be1f-ba31f55f5282"/>
+				<textFieldExpression><![CDATA[""+$F{CEILING}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="397" y="141" width="35" height="20" uuid="a4516e70-7670-4ea1-b40a-44aaff46727c"/>
+				<textFieldExpression><![CDATA[""+$F{NOFLOOR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="493" y="141" width="43" height="20" uuid="85a08536-e6e3-4218-ade4-bd69769085d9"/>
+				<textFieldExpression><![CDATA[""+$F{NOROOM}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="599" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="0" width="527" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="a0441923-ef8b-4be8-907a-bd44074ec4ec"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Services]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="20" width="160" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="038cb401-af6c-4cf5-a497-9c93d667c002"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Water]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="175" y="20" width="196" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="1cda1207-7035-442c-aa4b-ac2641269c22"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Drainage]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="375" y="20" width="163" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="e8e7a589-687b-4fd9-9424-f03713e8f96a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Electricity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="66" width="327" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="747a09b8-4b2d-4e16-959f-ebc48a7c43a8"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Fixtures And Fittings]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="350" y="66" width="190" height="40" forecolor="#FFFFFF" backcolor="#006666" uuid="2ce56ed0-76b6-4057-8530-182d1e3abb53"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="15"/>
+				</textElement>
+				<text><![CDATA[Amenities]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="86" width="164" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="8aa253c6-9c2e-4109-b195-1394f134e984"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[High Quality]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="180" y="86" width="160" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="283622e8-560f-4f0a-bac4-f7323ba9bd15"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Good Quality]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="136" width="110" height="18" forecolor="#FFFFFF" backcolor="#006666" uuid="fa1d697c-7728-4f17-9783-812ce3fa27db"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="8"/>
+				</textElement>
+				<text><![CDATA[GENERALCONDITION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="114" y="136" width="95" height="36" forecolor="#FFFFFF" backcolor="#006666" uuid="f438b549-582a-4164-8ca6-40ed7898b998"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[ROAD ACCESS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="213" y="136" width="325" height="18" forecolor="#FFFFFF" backcolor="#006666" uuid="b56f416f-3afe-4d8c-88ee-aa6db29f0c66"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[SITE WORKS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="215" y="154" width="146" height="18" forecolor="#FFFFFF" backcolor="#006666" uuid="76fd38b4-61e5-49d3-8a39-961d25fe402e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[Fence Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="371" y="154" width="167" height="18" forecolor="#FFFFFF" backcolor="#006666" uuid="1b10c554-5936-4707-8860-a779febd2f81"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[Compound]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="202" width="224" height="24" forecolor="#FFFFFF" backcolor="#006666" uuid="69ce9eed-d2a4-4925-aefc-de522a49eee5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[OUT BUILDING]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="183" y="226" width="54" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="c614b21a-78ac-4b7e-ae43-82cf2025322e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[NO.1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="183" y="256" width="54" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="31084364-788f-46b3-8f00-4463cf3db124"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[NO.2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="183" y="284" width="54" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="202b16a3-9f77-486a-abec-b6cc9d8e90a8"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[NO.3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="183" y="314" width="54" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="a03cee19-4510-4fda-97b3-0b4ea91f1e43"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[NO.4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="345" width="202" height="24" forecolor="#FFFFFF" backcolor="#006666" uuid="9d0b798d-1c34-4a0e-a757-157c1d4a6664"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[SKETCH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="235" y="345" width="305" height="24" forecolor="#FFFFFF" backcolor="#006666" uuid="952206cc-4fe5-41ad-9aac-8ca1eb26833a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[DIGITAL IMAGE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="338" y="540" width="94" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="fe86fae6-29ab-4539-96fe-876ed400a5b7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[No Of Full Baths]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="338" y="572" width="94" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="26aaf171-faab-44a6-8c74-21dddeb04d75"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[No Of toilets]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="14" y="40" width="156" height="20" uuid="7f20879e-35b5-40f3-8cbd-11848b80fe2a"/>
+				<textFieldExpression><![CDATA[""+$F{WATER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="40" width="194" height="20" uuid="51a99c55-77f0-4d8c-91fd-ae9a29042b1d"/>
+				<textFieldExpression><![CDATA[""+$F{DRAINAGE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="40" width="161" height="20" uuid="a585764c-d549-42c7-ae3c-ba8000cce98b"/>
+				<textFieldExpression><![CDATA[""+$F{ELECTRICITY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="13" y="106" width="162" height="20" uuid="d12aa905-04a5-49e8-a09a-8cccfa5edd70"/>
+				<textFieldExpression><![CDATA[""+$F{HQ}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="104" width="158" height="20" uuid="81a1d180-7c2e-4cd7-b43e-a3a6204a3cf0"/>
+				<textFieldExpression><![CDATA[""+$F{GQ}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="104" width="190" height="20" uuid="c3359935-e432-4c62-bbc7-d71668c964e7"/>
+				<textFieldExpression><![CDATA[""+$F{AMENIT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="9" y="154" width="46" height="20" uuid="7fe1e833-3034-425c-8de6-6d4fdb93f090"/>
+				<textFieldExpression><![CDATA[""+$F{EXLLENT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="55" y="154" width="54" height="20" uuid="e49f8f28-e0b9-4eab-abb1-f02cbb1c3327"/>
+				<textFieldExpression><![CDATA[""+$F{GOOD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="9" y="172" width="47" height="20" uuid="5900be54-2071-4056-8d10-1eac340125de"/>
+				<textFieldExpression><![CDATA[""+$F{FAIR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="56" y="172" width="53" height="20" uuid="5b505894-fd90-48ed-91d3-82226da3c23c"/>
+				<textFieldExpression><![CDATA[""+$F{POOR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="115" y="172" width="93" height="20" uuid="0a2144f9-f0cf-482e-a73e-c1d50937dac0"/>
+				<textFieldExpression><![CDATA[""+$F{ROAD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="172" width="143" height="20" uuid="09c663aa-163f-45b9-b9c3-8d5fe5b8650e"/>
+				<textFieldExpression><![CDATA[""+$F{FENCE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="371" y="172" width="165" height="20" uuid="7b4dde70-edde-49af-b079-8eb986f26c74"/>
+				<textFieldExpression><![CDATA[""+$F{COMP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="238" y="202" width="159" height="20" uuid="948595c8-d1e0-46be-8a02-77a5e4378500"/>
+				<textFieldExpression><![CDATA[""+$F{OBNONE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="238" y="226" width="159" height="20" uuid="47c7f99c-7e99-4f14-aaf1-cb4f9b772fe7"/>
+				<textFieldExpression><![CDATA[""+$F{OB1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="13" y="226" width="167" height="20" uuid="fd7a391e-9aac-4a41-bfb3-5f20da9959e0"/>
+				<textFieldExpression><![CDATA[""+$F{OB1HYPERLINK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="238" y="256" width="159" height="20" uuid="9eb4a30b-c7bc-41b7-a1f3-989d84324c5a"/>
+				<textFieldExpression><![CDATA[""+$F{OB2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="256" width="166" height="20" uuid="d70c1bb2-ade0-4edd-9216-58d28ffe2921"/>
+				<textFieldExpression><![CDATA[""+$F{OB2HYPERLINK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="238" y="284" width="159" height="20" uuid="cf6d1fd7-7d78-44a6-ad42-b9ba21cdf29c"/>
+				<textFieldExpression><![CDATA[""+$F{OB3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="284" width="163" height="20" uuid="ac2b8993-9942-4b15-b7e0-46489e9f9207"/>
+				<textFieldExpression><![CDATA[""+$F{OB3HYPERLINK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="237" y="314" width="160" height="20" uuid="3f2f112e-ca3d-455b-9bef-bdb26f64956d"/>
+				<textFieldExpression><![CDATA[""+$F{OB4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="314" width="163" height="20" uuid="bfdf84c9-c1f4-4fb1-96fb-b6a6580b3b5e"/>
+				<textFieldExpression><![CDATA[""+$F{OB4HYPERLINK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="432" y="540" width="100" height="20" uuid="b5947cbd-696f-4898-b003-87e9e7abe6b7"/>
+				<textFieldExpression><![CDATA[""+$F{BATHS}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="432" y="572" width="100" height="20" uuid="c99886f3-ad5f-44ca-b267-95b8f2f888a4"/>
+				<textFieldExpression><![CDATA[""+$F{TOILETS}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="534" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="0" width="527" height="24" forecolor="#FFFFFF" backcolor="#006666" uuid="eff2b54a-0696-47e8-b39a-ad34a552159e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[AREA CALCULATION AND VALUATION WORKSHEET]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="24" width="94" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="f0fb4e71-391b-421c-bccb-eb3176daa81e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Property Description:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="107" y="24" width="433" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="c06f83dd-7cd4-4f83-8fdc-eea4984766f3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="14"/>
+				</textElement>
+				<text><![CDATA[Floor Area Reduction]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="107" y="44" width="54" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="83a4a9c9-241e-48a9-b3c9-353575f0633c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Len/Dia(m)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="161" y="44" width="54" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="8acee1b2-91cb-4747-8dba-e01de16cbb50"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Width(m)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="213" y="44" width="78" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="b56473ee-17b1-466e-adf7-584a119eeb5e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Area/GEA(m2)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="291" y="44" width="80" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="36fc2f5b-dcb4-4abf-bba3-c511ceb16b29"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Reduction Factor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="371" y="44" width="79" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="c40ed28d-7f39-47ce-95cf-4c7d45983768"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Completion Factor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="450" y="44" width="90" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="c97d08cc-99ac-4fa6-9e0d-a353e7a78e5c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="10"/>
+				</textElement>
+				<text><![CDATA[Reduction Floor Area(m2)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="64" width="94" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="ffe7cc2d-c07f-4c2b-8fe5-8378daabcf4c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Main Building]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="84" width="94" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="72bb33ca-7e55-4fbc-aa89-b26b36d271e1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Out Building No.1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="104" width="94" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="99a36e8a-232a-4ac3-a221-8e35c26ec059"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Out Building No.2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="124" width="94" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="7be81043-fb97-4157-81cc-ca1f9e52025d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Out Building No.3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="144" width="94" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="71a663e8-6ee9-4ab0-8036-d3eae0aeb7c4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Condensed" size="12"/>
+				</textElement>
+				<text><![CDATA[Out Building No.4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="375" y="164" width="83" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="0a82779b-eefd-4aec-a0b2-799587f4fe5a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[total RFA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="184" width="527" height="24" forecolor="#FFFFFF" backcolor="#006666" uuid="5e52df57-3086-4fa9-8bc5-2372c9bf857d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="14"/>
+				</textElement>
+				<text><![CDATA[CALCULATION OF RATEABLE VALUE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="110" y="208" width="115" height="31" forecolor="#FFFFFF" backcolor="#006666" uuid="9d573a2d-3371-4ef4-bff0-323c15779db5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[total RFA(m2)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="225" y="208" width="150" height="31" forecolor="#FFFFFF" backcolor="#006666" uuid="0a122c7b-cebd-478f-aab9-6ff232fcf821"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Multiply by all Inclusive Rate(Tsh)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="375" y="208" width="165" height="31" forecolor="#FFFFFF" backcolor="#006666" uuid="40ec340f-a8ed-40f6-aab1-9c8cb66b27cd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Current Replacement  Value ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="239" width="97" height="30" forecolor="#FFFFFF" backcolor="#006666" uuid="b26d22bc-38ec-402d-8352-98c0c9eea84b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Property]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="294" width="278" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="e09478b6-3553-4343-8ad1-443874bbb1a4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Less Depreciation At]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="334" width="350" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="b29f60c6-b54f-4b33-9097-1e76440054f5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[DEPRECIATED REPLACEMENT COST VALUE(TSH):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="237" y="380" width="303" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="d3df2b83-c355-4780-92fe-ced23d72ecc3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[CERTIFICATION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="237" y="401" width="138" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="579f259e-f8e3-4ac8-97de-e18a23fd9a47"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Inspected By :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="237" y="443" width="138" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="c343e89b-ab3d-4522-870e-d6590a30d972"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Approved By :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="237" y="422" width="138" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="5da1a2fe-69c5-47e3-893c-d9262dc2f51d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Checked By :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="237" y="464" width="138" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="daca0ace-746f-4048-81ea-03838dc4dea7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Company Name :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="237" y="485" width="138" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="5feb132a-aac9-4c76-9cef-a141bfcfcc4e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Company Stamp :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="43" y="509" width="80" height="20" uuid="ff3f6cf4-6239-46df-b8c8-a66213fe7d42"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="0" y="509" width="40" height="20" uuid="cbe48e20-a1a1-48f0-86fd-3fc9cbf0dc26"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="485" width="100" height="20" uuid="ab0f9c95-adf2-4608-b8fb-c0168f086c64"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="310" y="508" width="61" height="21" forecolor="#FFFFFF" backcolor="#006666" uuid="d7b64f24-a8a8-4653-bf30-1693ae0c00e4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Rockwell Extra Bold" size="11"/>
+				</textElement>
+				<text><![CDATA[Date :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="107" y="64" width="54" height="20" uuid="6c1c08ec-4c4b-4f70-8571-78b736fb70a9"/>
+				<textFieldExpression><![CDATA[""+$F{MLEN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="162" y="64" width="54" height="20" uuid="ec3d8a4a-72ee-4a24-8e3c-a019fe6ae26e"/>
+				<textFieldExpression><![CDATA[""+$F{MWID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="64" width="75" height="20" uuid="8353f340-b024-419e-baaa-f5ab12962658"/>
+				<textFieldExpression><![CDATA[""+$F{MAREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="291" y="64" width="79" height="20" uuid="c0c70f1c-45fa-4a6b-b4fa-9e2277bdd101"/>
+				<textFieldExpression><![CDATA[""+$F{MREDFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="64" width="90" height="20" uuid="c671dc7b-dc35-4ad8-9a3f-55973b824819"/>
+				<textFieldExpression><![CDATA[""+$F{MREDFACTAREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="64" width="79" height="20" uuid="4abb19ee-d436-4cd3-982e-0b8d7253efd2"/>
+				<textFieldExpression><![CDATA[""+$F{OB1COMPFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="107" y="104" width="55" height="20" uuid="829a59d5-5698-4023-97a8-27e6633c4a14"/>
+				<textFieldExpression><![CDATA[""+$F{OB2LEN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="162" y="104" width="55" height="20" uuid="88d66137-6bd3-43b0-92c7-f1c741c3962e"/>
+				<textFieldExpression><![CDATA[""+$F{OB2WID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="217" y="104" width="75" height="20" uuid="6f019bd8-a745-41da-a171-190917eefa51"/>
+				<textFieldExpression><![CDATA[""+$F{OB2AREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="292" y="104" width="79" height="20" uuid="c03fa388-e88c-4546-b35f-e29fd64ad64d"/>
+				<textFieldExpression><![CDATA[""+$F{OB2REDFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="371" y="104" width="79" height="20" uuid="b1607ac4-5c12-4e93-a9f6-ad5f89861133"/>
+				<textFieldExpression><![CDATA[""+$F{OB2COMPFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="104" width="91" height="20" uuid="59718218-35cf-4e7a-b865-2c888f948e34"/>
+				<textFieldExpression><![CDATA[""+$F{OB2REDFACTAREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="107" y="122" width="55" height="20" uuid="02464d31-31ee-4361-a660-9455648fc1ef"/>
+				<textFieldExpression><![CDATA[""+$F{OB3LEN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="122" width="54" height="20" uuid="5e8596a5-9bf1-40c3-8f04-8be4c2fd3f4c"/>
+				<textFieldExpression><![CDATA[""+$F{OB3WID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="217" y="122" width="75" height="20" uuid="dfd1cf48-1aba-4f7d-b2f1-f59e70c7c8de"/>
+				<textFieldExpression><![CDATA[""+$F{OB3AREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="292" y="122" width="79" height="20" uuid="80c20bea-88cf-41e3-a15f-2f3b795f2589"/>
+				<textFieldExpression><![CDATA[""+$F{OB3REDFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="124" width="91" height="20" uuid="b0611c05-98bf-4d89-b054-7b3279a00cf1"/>
+				<textFieldExpression><![CDATA[""+$F{OB3REDFACTAREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="371" y="124" width="79" height="20" uuid="ccf156d0-35d9-44dc-9ff9-0b0d83d58241"/>
+				<textFieldExpression><![CDATA[""+$F{OB3COMPFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="107" y="144" width="55" height="20" uuid="af2baf96-22d6-4e4e-8646-ce244ab8ce45"/>
+				<textFieldExpression><![CDATA[""+$F{OB4LEN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="162" y="144" width="54" height="20" uuid="0f7b19af-2c2f-4be3-9177-e7f306d3523b"/>
+				<textFieldExpression><![CDATA[""+$F{OB4WID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="144" width="76" height="20" uuid="d88008ed-ddbc-4366-926c-6f6ed97ca81a"/>
+				<textFieldExpression><![CDATA[""+$F{OB4AREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="292" y="144" width="79" height="20" uuid="20ea9eb9-0f35-45b5-b01b-6779a89b3a5c"/>
+				<textFieldExpression><![CDATA[""+$F{OB4REDFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="371" y="144" width="79" height="20" uuid="3fe144b4-72a7-416f-a325-64f1109d7951"/>
+				<textFieldExpression><![CDATA[""+$F{OB4COMPFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="451" y="144" width="90" height="20" uuid="33ff7b4b-f3c8-49e7-bafb-e9b228d53810"/>
+				<textFieldExpression><![CDATA[""+$F{OB4REDFACTAREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="107" y="84" width="54" height="20" uuid="33fb87c1-d875-40ff-96ca-95a9328ee49c"/>
+				<textFieldExpression><![CDATA[""+$F{OB1LEN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="162" y="84" width="54" height="20" uuid="7878a2a8-f0e7-413f-ae46-6a89d4c5f2f1"/>
+				<textFieldExpression><![CDATA[""+$F{OB1WID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="215" y="84" width="74" height="20" uuid="bc3f52f7-43f7-4db7-b1eb-d0625c5bdfc0"/>
+				<textFieldExpression><![CDATA[""+$F{OB1AREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="291" y="84" width="79" height="20" uuid="25f6f404-a83c-4af9-a615-40dd5e90975b"/>
+				<textFieldExpression><![CDATA[""+$F{OB1REDFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="84" width="79" height="20" uuid="c2e11386-ce19-47de-85a5-fe547eec57ef"/>
+				<textFieldExpression><![CDATA[""+$F{OB1COMPFACT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="449" y="84" width="91" height="20" uuid="924aad23-beb2-4e04-8bf6-15082cf466a3"/>
+				<textFieldExpression><![CDATA[""+$F{OB1REDFACTAREA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="458" y="164" width="97" height="20" uuid="777fe524-7c40-4a8e-939a-4eba1bc93841"/>
+				<textFieldExpression><![CDATA[""+$F{TOTALRFA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="113" y="239" width="112" height="30" uuid="1278b953-d981-4071-b9dd-34d481063a45"/>
+				<textFieldExpression><![CDATA[""+$F{TOTALRFASQR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="225" y="239" width="150" height="30" uuid="7622eab2-6609-4bf1-bc52-7c76590f6b11"/>
+				<textFieldExpression><![CDATA[""+$F{MULTIPLYBTALL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="239" width="160" height="30" uuid="433ba2fa-f5cd-4b88-ab3b-1c0c3c6fdd53"/>
+				<textFieldExpression><![CDATA[""+$F{CURRENTREPLACEMENT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="292" y="295" width="244" height="20" uuid="191d25a3-60bd-4698-91f6-921cb336ecd5"/>
+				<textFieldExpression><![CDATA[""+$F{LESSDEPREC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="359" y="334" width="177" height="20" uuid="57cc501f-f495-4ed0-bbd7-edc213a66317"/>
+				<textFieldExpression><![CDATA[""+$F{DEPRECREPLACEMENT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="401" width="163" height="20" uuid="3b39fc0e-225d-4c5f-af13-e8cd92d3f30d"/>
+				<textFieldExpression><![CDATA[""+$F{INSPECTEDBY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="421" width="161" height="20" uuid="af7606fc-95be-465b-83b5-87dd8381cab4"/>
+				<textFieldExpression><![CDATA[""+$F{CHECKEDBY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="441" width="161" height="20" uuid="58d1d413-ed4a-4109-afac-e8a40c8a021e"/>
+				<textFieldExpression><![CDATA[""+$F{APPROVEDBY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="461" width="160" height="20" uuid="65ba384c-fa21-44ca-b6da-e4cb9a970e2e"/>
+				<textFieldExpression><![CDATA[""+$F{COMPANYNAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="481" width="160" height="20" uuid="5c431c2c-1ca3-4130-9a3f-f28205e2b911"/>
+				<textFieldExpression><![CDATA[""+$F{COMPANYSTAMP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="509" width="162" height="20" uuid="44d26c94-5f59-4cb0-b424-9d18391324b5"/>
+				<textFieldExpression><![CDATA[""+$F{CERTIFIEDDATE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

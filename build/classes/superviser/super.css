@@ -1,0 +1,10 @@
+.anchorpane{
+    -fx-background-image:url('file:/C:/Users/Engnoellemar/Documents/RealEstateTrial1/nichelogo.png');
+     -fx-background-repeat: stretch;
+        -fx-background-size: 290 190;
+        -fx-background-position: left 13 top 12;
+        -fx-background-color: #5f9ea0;
+
+
+
+}
